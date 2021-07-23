@@ -1,9 +1,15 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components'
+
 import { Register } from './src/pages/Register';
+
+import theme from './src/global/theme';
 
 export default function App() {
   return (
-    <Register />
+    <ThemeProvider theme={theme} >
+      <Register />
+    </ThemeProvider>
   );
 }
 
