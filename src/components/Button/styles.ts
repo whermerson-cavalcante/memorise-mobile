@@ -12,7 +12,7 @@ export const Container = styled(RectButton)`
   background-color: ${(props) => props.theme.colors.primary};
   border: 2px solid ${(props) => props.theme.colors.primary};
 
-  margin: ${RFValue(8)}px 0;
+  margin: ${RFValue(50)}px 0;
 `;
 
 export const Title = styled.Text`

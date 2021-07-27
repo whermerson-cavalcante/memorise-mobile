@@ -19,7 +19,7 @@ export const Content = styled.View`
   align-items: center;
 
   padding: ${RFValue(100)}px ${RFValue(40)}px;
-  padding-bottom: ${RFValue(50)}px;
+  padding-bottom: ${RFValue(0)}px;
 `;
 
 export const Logo = styled.Image``;
